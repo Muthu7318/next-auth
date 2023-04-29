@@ -7,7 +7,7 @@ export const authOptions = {
   session: {
     jwt: true,
   },
-  secret: "say_lalisa_love_me_lalisa_love_me_hey",
+  secret: "ewrewr234324324wdfdfwef32453546ghfgh634653434fbh",
   providers: [
     CredentialsProvider({
       async authorize(credentials, req) {
