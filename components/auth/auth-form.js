@@ -54,6 +54,9 @@ function AuthForm() {
       try {
         const result = await createUser(enteredEmail, enteredPassword);
         console.log(result);
+        if (result) {
+          setIsLogin((prevState) => !prevState);
+        }
       } catch (error) {
         console.log(error);
       }
